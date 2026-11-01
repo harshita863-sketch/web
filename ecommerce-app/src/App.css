@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+/* Login Page */
+
+.login-page,
+.signup-page {
+    background-color: rgb(237, 119, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box,
+.signup-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgb(2, 1, 1);
+}
+
+.login-box img,
+.signup-box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.login-box h2,
+.signup-box h2 {
+    margin-bottom: 20px;
+    color: purple;
+}
+
+.login-box input,
+.signup-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box button,
+.signup-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-box button:hover,
+.signup-box button:hover {
+    background-color: #5a005a;
+}
+
+.register-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Dashboard */
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.logout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 18px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    width: 30%;
+    background: #f8d7e3;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px gray;
+    padding: 20px;
+}
+
+.card img {
+    width: 170px;
+    height: 200px;
+    object-fit: contain;
+    background: white;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px;
+    color: #7851a9;
+}
+
+.price {
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.card p {
+    margin: 6px;
+}
+
+.buy-button {
+    padding: 10px 25px;
+    background: #7851a9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background: #5e3d85;
+}
